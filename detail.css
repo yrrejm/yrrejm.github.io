@@ -1,8 +1,11 @@
 /* detail.css */
 /* 메인 이미지 섹션 스타일 */
 .hero-image {
-    text-align: center;
-    padding: 40px 20px;
+text-align: center;
+padding-top: 80px;
+padding-bottom: 20px; /* 줄어든 아래쪽 패딩 */
+padding-left: 20px;
+padding-right: 20px;
 }
 
 .hero-image img {
