@@ -2,7 +2,7 @@
 /* 메인 이미지 섹션 스타일 */
 .hero-image {
     text-align: center;
-    padding: 80px 20px;
+    padding: 40px 20px;
 }
 
 .hero-image img {
@@ -15,7 +15,7 @@
 
 /* 세부 이미지 섹션 스타일 */
 .detail-images {
-    padding: 80px 20px;
+    padding: 40px 20px;
 }
 
 .detail-images .image-list {
