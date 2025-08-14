@@ -3,7 +3,7 @@
 .hero-image {
 text-align: center;
 padding-top: 80px;
-padding-bottom: 20px; /* 줄어든 아래쪽 패딩 */
+padding-bottom: 0px; /* 줄어든 아래쪽 패딩 */
 padding-left: 20px;
 padding-right: 20px;
 }
@@ -18,7 +18,7 @@ padding-right: 20px;
 
 /* 세부 이미지 섹션 스타일 */
 .detail-images {
-padding-top: 20px; /* 줄어든 위쪽 패딩 */
+padding-top: 00px; /* 줄어든 위쪽 패딩 */
 padding-bottom: 80px;
 padding-left: 20px;
 padding-right: 20px;
