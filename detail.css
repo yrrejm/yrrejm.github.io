@@ -15,7 +15,10 @@
 
 /* 세부 이미지 섹션 스타일 */
 .detail-images {
-    padding: 40px 20px;
+padding-top: 20px; /* 줄어든 위쪽 패딩 */
+padding-bottom: 80px;
+padding-left: 20px;
+padding-right: 20px;
 }
 
 .detail-images .image-list {
