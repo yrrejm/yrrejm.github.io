@@ -1,10 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-    <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Detail</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="detail.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>This is my first GitHub Pages website.</p>
+
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="nav-link">Back to Portfolio</a>
+        </nav>
+    </header>
+
+    <main class="main-content detail-page">
+        <section class="hero-image section">
+            <img id="mainTopology" src="images/topology-large.jpg" alt="전체 토폴로지" onclick="openModal('images/topology-large.jpg', '전체 토폴로지')">
+            <p class="image-caption">전체 토폴로지 (클릭하여 확대)</p>
+        </section>
+
+        <section id="detailImages" class="detail-images section">
+            <h2 class="section-title">세부 이미지</h2>
+            <ul class="image-list">
+                <li class="image-item">
+                    <img src="images/detail-1.jpg" alt="세부 이미지 1" onclick="openModal('images/detail-1.jpg', '세부 이미지 1에 대한 설명')">
+                    <p class="image-caption">세부 이미지 1에 대한 설명</p>
+                </li>
+                <li class="image-item">
+                    <img src="images/detail-2.jpg" alt="세부 이미지 2" onclick="openModal('images/detail-2.jpg', '세부 이미지 2에 대한 설명')">
+                    <p class="image-caption">세부 이미지 2에 대한 설명</p>
+                </li>
+                <li class="image-item">
+                    <img src="images/detail-3.jpg" alt="세부 이미지 3" onclick="openModal('images/detail-3.jpg', '세부 이미지 3에 대한 설명')">
+                    <p class="image-caption">세부 이미지 3에 대한 설명</p>
+                </li>
+            </ul>
+        </section>
+
+        <div id="imageModal" class="modal" onclick="closeModal()">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="modalImage">
+            <div id="caption"></div>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
